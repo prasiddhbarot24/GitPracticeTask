@@ -9,12 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblMessage: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
         print("Hello iOS world....")
+        
+        lblMessage.text = "hello iOS world!..."
     }
 
 }
