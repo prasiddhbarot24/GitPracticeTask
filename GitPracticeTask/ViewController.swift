@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         print("Hello iOS world....")
         
-        lblMessage.text = "hello iOS world!..."
+
+        lblMessage.text = "Hello iOS world...."
+        
+        print("hello....")
+
     }
 
 }
