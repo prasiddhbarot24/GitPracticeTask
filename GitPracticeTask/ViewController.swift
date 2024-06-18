@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         print("Hello iOS world....")
         
         lblMessage.text = "Hello iOS world...."
+        
+        print("hello....")
     }
 
 }
